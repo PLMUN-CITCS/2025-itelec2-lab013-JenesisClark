@@ -1,8 +1,8 @@
-numbers = list(range(1, 11))
+numbers = list(range(1, 10))
 
 for num in numbers:
-    if num == 3:
+    if num == 1:
         continue
-	if num == 7:
+	if num == 10:
         break  
 	print(num)
